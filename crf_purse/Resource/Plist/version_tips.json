@@ -1,0 +1,175 @@
+ [
+  {
+  "versionName": "信而富理财 V3.0.5",
+  "versionContent": [
+                     {"title":"", "content": "修复了一些鲜为人知的BUG。"}
+                     
+                     ]
+  },
+  {
+  "versionName": "信而富理财 V3.0.1",
+  "versionContent": [
+                     {"title":"1.", "content": "修复了一些顽皮的小BUG；"},
+                     {"title":"2.", "content": "提高了系统稳定性。"}
+                     ]
+  },
+  {
+    "versionName": "信而富理财 V3.0.0",
+    "versionContent": [
+      {"title":"", "content": "APP不搞个1.0版、2.0版、3.0版出来也好意思叫APP？之前版本的APP被吐槽了无数次，忍辱负重的程序员GG们决定努努力更新出3.0版本，继续接受你们的吐槽。不得不说，新版本的页面堪称整容，看脸的世界，APP也躲不过这个定律。此外，各操作流程均有所优化，坚定贯彻落实以人为本的科学发展观。最重要的是，此次技术队伍的办公位置由风水大师摆阵算出，新版APP3.0乃我司风水宝地上做出的风水宝APP。上线的日子也选了个黄道吉日，天时地利人和。惊不惊喜？意不意外？"}
+    ]
+  },
+  {
+    "versionName": "信而富理财 V2.3.0",
+    "versionContent": [
+      {"title":"【活动】", "content": "8月活动升级，开心最重要：新用户领取600元现金红包，老用户投资抽大奖（松下智能电饭煲.双立人珐琅锅等）"},
+      {"title":"【升级】", "content": "“我的投资记录”列表优化：明确总资产组成部分，一眼看懂资金情况。"},
+      {"title":"【功能】", "content": "转投可以使用优惠券：老用户新福利。"},
+      {"title":"【新增】", "content": "上线特供方案：限时特供现金贷90天-6.81%，现金贷180天-8.03%。"}
+    ]
+  },
+  {
+    "versionName": "信而富理财 V2.2.6",
+    "versionContent": [
+      {"title":"1.", "content": "“信而富钱包”更名为“信而富理财”；"},
+      {"title":"2.", "content": "修复了几个顽皮的小BUG。"}
+    ]
+  },
+  {
+    "versionName": "信而富理财 V2.2.5",
+    "versionContent": [
+      {"title":"1.", "content": "“信而富钱包”更名为“信而富理财”；"},
+      {"title":"2.", "content": "全新福利“旅游狂欢季，凉爽一夏送你去海岛！”；"},
+      {"title":"3.", "content": "修复了几个顽皮的小BUG。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V2.2.4",
+    "versionContent": [
+      {"title":"1.", "content": "增加了新手共盈方案，供新注册用户投资；"},
+      {"title":"2.", "content": "优化了现金贷共盈方案的显示，增加了开放时间提示；"},
+      {"title":"3.", "content": "其他细节优化及已知问题修复。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V2.2.3",
+    "versionContent": [
+      {"title":"1.", "content": "提高了系统的稳定性；"},
+      {"title":"2.", "content": "优化了交互页面。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V2.2.2",
+    "versionContent": [
+      {"title":"1.", "content": "提高了系统的稳定性；"},
+      {"title":"2.", "content": "优化了交互页面。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V2.2.1",
+    "versionContent": [
+      {"title":"1.", "content": "优化了积分商城功能；"},
+      {"title":"2.", "content": "优化了优惠券功能 ；"},
+      {"title":"3.", "content": "对app进行了安全加固。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V2.2.0",
+    "versionContent": [
+      {"title":"", "content": "感谢您支持信而富钱包，本次更新内容如下："},
+      {"title":"1.", "content": "新上线优惠券功能；"},
+      {"title":"2.", "content": "新上线积分抽奖与积分兑换功能；"},
+      {"title":"3.", "content": "新增活动中心板块；"},
+      {"title":"4.", "content": "优化了服务功能和各页面兼容性。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V2.1.5",
+    "versionContent": [
+      {"title":"1.", "content": "升级启用恒丰银行资金存管模式；"},
+      {"title":"2.", "content": "优化用户中心关于银行存管的说明文字；"},
+      {"title":"3.", "content": "优化活动规则中关于银行存管的说明文字。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V2.1.4",
+    "versionContent": [
+      {"title":"1.", "content": "【新增】特供短期方案幸福连盈2M上线；"},
+      {"title":"2.", "content": "【优化】部分页面的设计优化；"},
+      {"title":"3.", "content": "【优化】若干机型界面显示兼容性优化。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V2.1.3",
+    "versionContent": [
+      {"title":"1.", "content": "【新增】特供短期方案幸福连盈2M上线；"},
+      {"title":"2.", "content": "【优化】部分页面的设计优化；"},
+      {"title":"3.", "content": "【优化】若干机型界面显示兼容性优化。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V2.1.2",
+    "versionContent": [
+      {"title":"1.", "content": "现金贷共盈出借有礼活动上线；"},
+      {"title":"2.", "content": "调整了提现手续费；"},
+      {"title":"3.", "content": "优化了对iOS10的兼容性。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V2.1.1",
+    "versionContent": [
+      {"title":"1.", "content": "上线了现金贷共盈计划专区；"},
+      {"title":"2.", "content": "更新方案列表与说明；"},
+      {"title":"3.", "content": "优化了各环节UI设计；"},
+      {"title":"4.", "content": "其他细节优化及bug修复。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V2.1.0",
+    "versionContent": [
+      {"title":"1.", "content": "重新设计了各主要页面；"},
+      {"title":"2.", "content": "优化了各环节UI设计；"},
+      {"title":"3.", "content": "新增了新手指引栏目，新手福利唾手可得；"},
+      {"title":"4.", "content": "新增了方案筛选功能，各出借方案一目了然；"},
+      {"title":"5.", "content": "新增收益计算器，预期收益早知道；"},
+      {"title":"6.", "content": "新增资讯板块，了解更多最新信而富动态；"},
+      {"title":"7.", "content": "其他细节优化及bug修复。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V1.2.1",
+    "versionContent": [
+      {"title":"1.", "content": "更新了开户银行机构信息；"},
+      {"title":"2.", "content": "对部分功能进行了优化。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V1.2.0",
+    "versionContent": [
+      {"title":"1.", "content": "调整了推荐好友功能页面；"},
+      {"title":"2.", "content": "已知错误修复和其他细节优化。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V1.1.1",
+    "versionContent": [
+      {"title":"1.", "content": "修改部分bug；"},
+      {"title":"2.", "content": "界面优化；"},
+      {"title":"3.", "content": "账户信息中，\"累计收益\"改为了“账面收益”。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V1.1.0",
+    "versionContent": [
+      {"title":"1.", "content": "增加取消手势密码功能；"},
+      {"title":"2.", "content": "增加转投功能；"},
+      {"title":"3.", "content": "增加记住用户名功能。"}
+    ]
+  },
+  {
+    "versionName": "信而富钱包 V1.0.1",
+    "versionContent": [
+      {"title":"", "content": "修复了部分bug,对界面进行了优化。"}
+    ]
+  }
+]

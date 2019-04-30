@@ -1,0 +1,327 @@
+/*
+ Localizable.strings
+ crf_purse
+ 
+ Created by crf on 2017/7/3.
+ Copyright © 2017年 com.crfchina. All rights reserved.
+ */
+//navigation title
+"language" = "english";
+"title_invest_success"="投资成功";
+"title_invest"="投资";
+"title_register"="注册";
+"title_login"="登录";
+"title_set_password"="设置密码";
+"title_discovery"="发现";
+"title_modify_login_password"="修改登录密码";
+"title_setting"="设置";
+"title_profile"="个人资料";
+"title_forget_pwd"="忘记密码";
+"title_set_new_pwd"="设置新密码";
+"title_feedback"="意见反馈";
+"title_home"="信而富投资";
+"title_open_account"="开通存管账户";
+"title_create_account_status"="银行存管账户";
+"title_modify_address"="修改收货地址";
+"title_create_address"="新增收货地址";
+"title_relate_account_success"="关联银行存管账户";
+"title_create_email"="添加邮箱地址";
+"title_modify_email"="修改邮箱地址";
+"title_bank_card_info"="我的银行卡";
+"title_address"="收货地址";
+"title_recharge_guild"="大额充值指南";
+"title_set_pwd"="设置密码";
+"title_set_new_pwd"="设置新密码";
+"title_modify_pwd"="修改密码";
+"title_email"="邮箱地址";
+"title_roll_out"="提现";
+"title_recharge"="充值";
+"title_setting"="我的设置";
+"title_version_explain"="版本说明";
+"title_feedback_recharge"="充值反馈";
+"title_feedback_roll_out"="提现反馈";
+"title_support_bank_card_list"="支持银行及限额说明";
+"title_apply_logout"="退出申请成功";
+"title_transfer_feedback"="转投申请反馈";
+"title_coupon"="选择返现/加息红包";
+"title_convert_coupon"="兑换优惠券";
+"title_transfer_target"="选择转投目标";
+
+
+
+//BarButton
+"bar_button_help"="帮助";
+"bar_button_edit"="编辑";
+"bar_button_roll_out_record"="提现记录";
+"bar_button_cance"="取消  ";
+"bar_button_recharge_record"="充值记录";
+"bar_cancel_edit"="  取消";
+"bar_save_edit"="保存  ";
+
+//tabbar title
+
+"tabbar_home"="首页";
+"tabbar_invest"="投资";
+"tabbar_discovery"="发现";
+"tabbar_mine"="我";
+
+
+//button title
+"button_next_tep"="下一步";
+"button_commit"="提交";
+"button_get_verify_code"="获取验证码";
+"button_login"="登录";
+"button_register"="快速注册";
+"button_forget_password"="忘记密码";
+"button_logout"="退出登录";
+"button_verify_normal_title"="获取验证码";
+"button_verify_re_get_verify_code"="重新获取";
+"button_re_get_verify_code"="重新获取(%lds)";
+"button_commit"="提交";
+"button_register_right_now"="立即注册";
+"button_open_account_right_now"="立即开户";
+"button_invest_right_now"="立即投资";
+"button_about_us"="关于信而富";
+"button_create_account"="下一步";
+"button_cancel"="取消";
+"button_roll_out"="提现";
+"button_recharge"="充值";
+"button_complate"="完成";
+"button_bankcard_list"="限额说明";
+"button_modify"="修改";
+"button_save"="保存";
+"button_logout"="安全退出";
+"button_all"="全部";
+
+
+//label title
+//"label_prompt_not_receive"="没收到验证码？试试  语音验证";
+"label_prompt_not_receive"="没收到验证码？试试语音验证";
+"label_prompt_not_receive_sub"="没收到验证码？试试";
+"label_voice_verify"="语音验证";
+"label_verify_code_place"="请输入图形验证码";
+"label_prompt_input_password"="密码为 6-20个大小写字母、符号或数字的组合";
+"label_new_user_prompt"="新手福利";
+"label_create_account_protocol"="我已阅读并同意%@";
+"label_create_account_protocol1"="我已阅读并同意";
+"label_relate_account_prompt"="手机号码%@已开通存管账户，您可通过身份验证关联绑定该账户。";
+"label_login"="点击登录";
+"label_total_amount"="总资产(元)";
+"label_profit"="累计收益(元)";
+"label_variable"="可用余额(元)";
+"label_version_number"="版本号 %@";
+"label_new_version_explain"="新版本介绍";
+"label_recharge_prompt"="您将使用%@进行充值，请确保卡上有足够余额 ";
+"label_recharge_prompt1"="您将使用";
+"label_recharge_prompt2"="进行充值，请确保卡上有足够余额";
+"label_recharge_explain"="充值说明：\n 1.最低充值金额不能低于%@元，%@的最高充值限额：单笔%@,单日%@,单月%@，更大金额请查看大额充值指南。\n 2.充值手续费由信而富承担。\n 3.若有疑问请联系客服热线：  400-178-9898 。";
+"label_recharge_explain1"="大额充值指南";
+"label_recharge_explain3"="。\n 2.充值手续费由信而富承担。\n 3.若有疑问请联系客服热线：  400-178-9898 。";
+"label_recharge_explain_none"="充值记录\n充值说明：\n 1.最低充值金额不能低于5元，\n 如因金额较大充值失败，请在PC端使用网银进行充值，具体请查看大额充值指南。\n 2.充值手续费由信而富承担。\n 3.若有疑问请联系客服热线：  400-178-9898 。";
+
+
+
+"label_roll_out_prompt"="您提现金额将发放至%@";
+"label_roll_out_variable_money"="可提现余额%@元";
+"label_address_contact"="联系人";
+"label_address_mobile_phone"="手机号";
+"label_address_city"="选择地区";
+"label_address_detail"="详细地址";
+"label_address_email_no"="邮政编码";
+"label_look_up_record"="目前仅提供查看APP充值提现记录";
+"label_login_device_recent"="最近登录设备";
+"label_changed_mobile_phone"="更换银行预留手机号";
+"label_changed_device_send_code_first"="您更换了登录设备，为了保证您的账户安全，请输入验证码：";
+"label_message_code_send_mobile_phone"="验证码已发送至%@";
+"label_support_bank_card_list"="支持银行及限额（仅支持储蓄卡，暂不支持信用卡）具体金额以实际限额为准。";
+"label_support_bank"="支持银行";
+"label_simple_order"="单笔限额";
+"label_day_order"="单日限额";
+"label_month_order"="单月限额";
+"label_default_money"="0.00";
+"label_transfer_success"="恭喜您转投申请成功！";
+"label_apply_logout_success"="恭喜您退出申请成功！";
+"label_goto_invest_product"="去投资";
+"label_get_money_with_invest"="赶紧去投资赚收益吧~";
+"label_record_mine_none"="无出借中的出借记录";
+"label_record_mine_alerdy"="无退出中的出借记录";
+"label_record_mine_finished"="无已结束的出借记录";
+"label_creditor"="借款人";
+"label_"="匹配债权金额(元)";
+//""="共借";
+//""="待还";
+
+
+
+//placeholder
+"placeholder_name"="请输入姓名";
+"placeholder_mobile_phone"="请输入手机号";
+"placeholder_choose"="请选择";
+"placeholder_detail"="请输入详细地址";
+"placeholder_email_no"="请输入邮政编码";
+"placeholder_verify_code"="输入验证码";
+"placeholder_password_input"="请输入密码";
+"placeholder_password_input_again"="请输入确认密码";
+"placeholder_user_name_login"="请输入手机号";
+"placeholder_feedback"="在此写下您的建议~";
+"placeholder_input_mobile_phone"="输入新手机号";
+
+
+
+//toast
+"toast_send_verify_code"="验证短信已发送，请注意查收";
+"toast_not_clicking"="正在执行，请勿重复点击";
+"toast_error_number"="请输入正确的手机号码";
+"toast_phone_number_not_null"="手机号码不能为空";
+"toast_read_crf_protocol"="请阅读《信而富平台注册协议》并勾选";
+"toast_error_verify_code"="请输入正确的验证码";
+"toast_pwd_not_null"="密码不能为空";
+"toast_pwd_length_error"="长度为6-20个字符";
+"toast_pwd_format_error"="请使用字母、数字和字符两种及以上的组合";
+"toast_twice_pwd_diff"="两次输入密码不一致";
+"toast_register_failed"="注册失败，请稍后再试";
+"toast_voice_verify_code_sended"="验证电话即将拨出，请注意接听";
+"toast_input_real_name"="请输入真实姓名";
+"toast_input_identifier"="请输入身份证号";
+"toast_valide_identifier"="请输入正确的身份证号";
+"toast_input_bank_no"="请输入银行卡号";
+"toast_bank_number_error"="对不起，银行卡信息有误";
+"toast_unsupport_bank_card"="对不起，暂不支持您的卡种，请更换银行卡";
+"toast_choose_address"="请选择开户地址";
+"toast_choose_create_protocol"="请勾选开户协议";
+"toast_relate_account_success"="关联成功";
+"toast_feedback_contact_validate"="请输入正确的手机号或邮箱";
+"toast_feedback_contact_null"  = "联系方式不能为空哦~";
+"toast_feedback_success"="提交成功，非常感谢您的反馈意见";
+"toast_email_validate"="邮箱不合法";
+"toast_update_email_failed"="更新失败";
+"toast_send_messeg_failed"="验证短信发送失败";
+"toast_recharge_failed"="充值失败";
+"toast_input_rollout_money"="请输入提现金额";
+"toast_input_verify_code"="请输入验证码";
+"toast_verify_code_validate"="验证码格式不正确";
+"toast_roll_out_failed"="提现失败";
+"toast_name_not_null"="姓名不能为空";
+"toast_mobile_phone_not_null"="手机号不能为空";
+"toast_phone_validate_not_null"="手机号不合法";
+"toast_city_not_null"="地区不能为空";
+"toast_address_not_null"="地址不能为空";
+"toast_email_no_not_null"="邮政编码不能为空";
+"toast_network_online_error"="请检查网络连接";
+"toast_roll_out_money_error"="提现金额必须大于1元";
+"toast_reset_pwd_success"="密码重置成功，请登录";
+"toast_send_verify_first"="请先发送验证码";
+"toast_input_money_after_send_code"="请先输入金额再获取验证码";
+"toast_voice_code_send_success"="语音验证发送成功，请注意接听";
+"toast_input_convert_code"="请输入兑换码";
+//"toast_message_code_get_failed"="验证码获取失败";
+//cell
+
+"cell_label_invest"="我的投资";
+"cell_label_reward"="优惠红包";
+"cell_label_notify"="消息中心";
+"cell_label_IM"="我的客服";
+"cell_label_setting"="我的设置";
+"cell_label_modify_login_pwd"="修改登录密码";
+"cell_label_question"="常见问题";
+"cell_label_feedback"="意见反馈";
+"cell_label_about"="关于我们";
+"cell_label_evaluation"="评价我们";
+"cell_label_version_no"="版本号";
+"cell_label_phonenumber"="手机号";
+"cell_label_name"="姓名";
+"cell_label_identifier"="身份证";
+"cell_label_bank_card"="银行卡";
+"cell_label_email"="邮箱";
+"cell_label_address"="收货地址";
+"cell_label_IM_online"="在线客服";
+"cell_label_help_feedback"="帮助反馈";
+"cell_label_notification_mine"="我的消息";
+"cell_new_user_enjoy_product"="新手专享";
+"cell_label_home_subTitle_1"="%@万元起投 | 出借期%@天 | 已投%@%%";
+"cell_label_home_subTitle"="%@元起投 | 出借期%@天 | 已投%@%%";
+"cell_label_home_subTitle_2"="%@万元起投 | 出借期%@天 | 已投100%%";
+"cell_label_home_subTitle_3"="%@元起投 | 出借期%@天 | 已投100%%";
+"cell_label_home_title"="%.2f%%期望年化收益率";
+"cell_label_mine_header_image"="头像";
+"cell_label_text_user"="风险测评";
+"cell_value_auth"="去认证";
+"cell_value_bind_card"="去绑卡";
+"cell_value_go_test"="前往测评";
+"cell_value_go_input"="去填写";
+"cell_label_real_name"="真实姓名";
+"cell_label_bankcard_no"="银行卡号";
+"cell_label_identifier_create_account"="身份证号";
+"cell_label_bank_mobile_phone"="银行预留手机号";
+"cell_label_test_code" ="验证码";
+"cell_label_placeholder_identifier"="大陆有效居民身份证";
+"cell_label_bank_name"="银行名称";
+"cell_label_bank_city"="开户行所在地";
+"cell_label_value_new_version"="有新版本";
+"cell_label_value_no_new_version"="已是最新";
+"cell_label_update_version"="检测更新";
+"cell_label_version_explain"="版本说明";
+"cell_label_common"="软件评分";
+"cell_label_velue_new_common"="新回复";
+"cell_label_address"="收货地址";
+"cell_label_modify_pwd"="修改登录密码";
+"cell_label_touchID_login"="使用指纹登录";
+"cell_label_device_manager"="设备管理";
+"cell_label_push"="推送提醒";
+"cell_label_feedback"="意见反馈";
+"cell_label_about"="关于我们";
+"cell_label_clear_cache"="清除缓存";
+"cell_label_new_address"="新增地址";
+""="";
+
+//refresh
+"refresh_title_home"="松手刷新";
+"refresh_aviable_money"="可用余额(元)";
+"refresh_receive_money"="累计收益(元)";
+
+//footer
+"footer_home_more"="查看更多计划 >";
+"footer_create_account_bottom"="如果不确定开户行所在地，请拨打%@咨询。";
+
+//header
+"header_total_money"="总资产(元)\n%@";
+"header_old_user_product"="精选计划";
+"header_total_money_off_line"="总资产(元)\n%@";
+"header_profit_money_off_line"="累计收益(元)\n%@";
+"header_variable_money_off_lone"="可用余额(元)\n%@";
+"header_create_account_top_title"="为了保障您的资金安全，需开通银行存管账户。\n请先进行实名认证:";
+"header_real_name_auth"="请先进 实名认证:";
+"header_bind_bank_card"="绑定银行卡：\n推荐绑定广发、兴业、光大、平安、工商、建设、中信银行储蓄卡。\n若绑定的银行卡属于非一类账户，您的充值和提现体验将会受到影响，因此建议您绑定一类账户。具体账户类型可咨询发卡行。";
+"header_evaluate_risk"="%@\n%@";
+
+
+//AlertSheet
+"action_sheet_cancel"="取消";
+"action_sheet_take_photo"="拍照";
+"altion_photos_selected"="从相册中选取";
+"action_title" = "是否确定退出登录？";
+"action_logout" ="退出";
+//alertView
+"alert_view_call_message"="如果您使用的是台胞证等证件，开户请联系信而富客服热线：400-178-9898。";
+"alert_view_i_known"="我知道了";
+"alert_view_call"="呼叫";
+"alert_view_verify_relate_user_info"="您填写的信息是\n姓名：%@\n身份证号：%@";
+"alert_view_title_verify_user"="信息确认";
+"alert_view_button_cancel"="取消";
+"alert_view_button_verify"="确认验证";
+"alert_title_give_up_feedback"="您要放弃意见反馈？";
+"alert_view_button_give_up"="放弃";
+"alert_view_button_feedback_continue"="继续反馈";
+"alert_view_give_up_address"="确定要放弃此次编辑吗？";
+"alert_view_button_comfirm"="确定";
+"alert_view_title_relate_failed"="关联失败";
+"alert_view_message_relate_failed"="您输入的身份信息与存管账号%@不匹配，请更正。";
+
+
+//others
+
+"format_bank_card"="%@卡(%@)";
+
+"touchID_button_cancel"="取消";
+"touchID_message"="请验证指纹，确认登录";
+"invest_touchID_message" ="请验证指纹，确认投资";

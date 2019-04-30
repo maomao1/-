@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CRFRegisterViewController">
+            <connections>
+                <outlet property="imageView" destination="9QD-rs-8Lj" id="MzY-jG-zMA"/>
+                <outlet property="logoImageView" destination="9QD-rs-8Lj" id="QIo-AJ-obp"/>
+                <outlet property="registerTableView" destination="M53-Ey-FqI" id="1Lu-MJ-hqq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="center" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="M53-Ey-FqI">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="agg-SY-pTp"/>
+                        <outlet property="delegate" destination="-1" id="KKj-Rb-Sg1"/>
+                    </connections>
+                </tableView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crf_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="9QD-rs-8Lj">
+                    <rect key="frame" x="0.0" y="619" width="375" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="RcN-tl-zMY"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9QD-rs-8Lj" secondAttribute="trailing" id="2WY-Ra-xuF"/>
+                <constraint firstItem="9QD-rs-8Lj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JeM-5a-MGp"/>
+                <constraint firstItem="M53-Ey-FqI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OeI-50-n4p"/>
+                <constraint firstAttribute="bottom" secondItem="M53-Ey-FqI" secondAttribute="bottom" id="Qgy-sU-UXh"/>
+                <constraint firstAttribute="trailing" secondItem="M53-Ey-FqI" secondAttribute="trailing" id="fzL-pW-Wjg"/>
+                <constraint firstItem="M53-Ey-FqI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="nXS-wf-7nc"/>
+                <constraint firstAttribute="bottom" secondItem="9QD-rs-8Lj" secondAttribute="bottom" constant="25" id="zwa-xw-Qev"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="84.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="crf_logo.png" width="70" height="23"/>
+    </resources>
+</document>

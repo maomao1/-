@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="156" id="KGk-i7-Jjw" customClass="CRFDetailTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="156"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="155.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRI-cC-ncT">
+                        <rect key="frame" x="23" y="18" width="274" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="mEo-3E-Pci"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtv-dg-eru">
+                        <rect key="frame" x="23" y="53" width="274" height="57.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mmg-JC-jOI">
+                        <rect key="frame" x="23" y="125" width="274" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="saV-Ig-Z0h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wRI-cC-ncT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="2BK-Dg-1GZ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="wRI-cC-ncT" secondAttribute="trailing" constant="7" id="2FJ-e4-dF1"/>
+                    <constraint firstItem="Xtv-dg-eru" firstAttribute="trailing" secondItem="wRI-cC-ncT" secondAttribute="trailing" id="Ko8-S0-3eq"/>
+                    <constraint firstItem="wRI-cC-ncT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="7" id="L44-39-25e"/>
+                    <constraint firstItem="Xtv-dg-eru" firstAttribute="leading" secondItem="wRI-cC-ncT" secondAttribute="leading" id="OXU-eh-uZz"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="mmg-JC-jOI" secondAttribute="bottom" constant="7" id="gEN-1s-jhe"/>
+                    <constraint firstItem="mmg-JC-jOI" firstAttribute="top" secondItem="Xtv-dg-eru" secondAttribute="bottom" constant="15" id="jrg-F9-ODw"/>
+                    <constraint firstItem="mmg-JC-jOI" firstAttribute="leading" secondItem="Xtv-dg-eru" secondAttribute="leading" id="mPm-YN-egH"/>
+                    <constraint firstItem="Xtv-dg-eru" firstAttribute="top" secondItem="wRI-cC-ncT" secondAttribute="bottom" constant="20" id="q27-p9-mE7"/>
+                    <constraint firstItem="mmg-JC-jOI" firstAttribute="trailing" secondItem="Xtv-dg-eru" secondAttribute="trailing" id="zuq-P0-1MM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="Xtv-dg-eru" id="YT5-Ia-URb"/>
+                <outlet property="timeLabel" destination="mmg-JC-jOI" id="Wz4-u7-zIU"/>
+                <outlet property="titleLabel" destination="wRI-cC-ncT" id="1Wj-QY-lsO"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="110"/>
+        </tableViewCell>
+    </objects>
+</document>

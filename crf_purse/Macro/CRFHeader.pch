@@ -1,0 +1,48 @@
+//
+//  CRFHeader.pch
+//  CRFWallet
+//
+//  Created by xu_cheng on 2017/6/15.
+//  Copyright © 2017年 com.crfchina. All rights reserved.
+//
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifndef CRFHeader_pch
+#define CRFHeader_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+
+#endif /* CRFHeader_pch */
+//#define _AFNETWORKING_ALLOW_INVALID_SSL_CERTIFICATES_
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "CRFAppConsts.h"
+#import "CRFUtils.h"
+#import "YYModel.h"
+#import "CRFResponseFactory.h"
+#import "UITableView+Custom.h"
+#import "CRFUserDefaultManager.h"
+#import "CRFNetworkConst.h"
+#import "CRFAppManager.h"
+#import "UIButton+CRFRepeatClick.h"
+#import "UITableViewCell+Access.h"
+#import "CRFRefreshUserInfoHandler.h"
+#import "CRFAPPCountManager.h"
+#import "CRFNotificationUtils.h"
+#import "NSString+CRF.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "CRFStandardNetworkManager.h"
+#import "CRFLoadingView.h"
+#import "CRFRSAConst.c"
+#import "NSArray+Crash.h"
+#import "CRFDataSourceFactory.h"
+#import "NSDictionary+Crash.h"
+#import "NSString+AttributedString.h"
+#import <YYText/YYText.h>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CRFBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="88"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我们真的有底线" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1y-1Q-LGu">
+                    <rect key="frame" x="161" y="38" width="90" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="55y-Sk-afu"/>
+                        <constraint firstAttribute="height" constant="12" id="Dd1-Kl-Ecn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.73333333333333328" green="0.73333333333333328" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_bottom_left.png" translatesAutoresizingMaskIntoConstraints="NO" id="rQe-lW-vxD">
+                    <rect key="frame" x="116" y="42" width="35" height="4"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="4K2-eu-FBe"/>
+                        <constraint firstAttribute="height" constant="4" id="Syo-h6-6nG"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_bottom_right.png" translatesAutoresizingMaskIntoConstraints="NO" id="HlS-Dn-Z2c">
+                    <rect key="frame" x="261" y="42" width="35" height="4"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="4" id="4gR-kg-9rL"/>
+                        <constraint firstAttribute="width" constant="35" id="EVB-gA-pEb"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="h1y-1Q-LGu" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="8C2-3h-FQC"/>
+                <constraint firstItem="h1y-1Q-LGu" firstAttribute="leading" secondItem="rQe-lW-vxD" secondAttribute="trailing" constant="10" id="8zi-BL-HxI"/>
+                <constraint firstItem="rQe-lW-vxD" firstAttribute="centerY" secondItem="h1y-1Q-LGu" secondAttribute="centerY" id="QCz-YD-Y8g"/>
+                <constraint firstItem="h1y-1Q-LGu" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ezb-wa-p2b"/>
+                <constraint firstItem="HlS-Dn-Z2c" firstAttribute="leading" secondItem="h1y-1Q-LGu" secondAttribute="trailing" constant="10" id="fvm-FJ-P2F"/>
+                <constraint firstItem="HlS-Dn-Z2c" firstAttribute="centerY" secondItem="rQe-lW-vxD" secondAttribute="centerY" id="gTy-2K-1T8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="153.59999999999999" y="-122.33883058470765"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_bottom_left.png" width="35" height="4"/>
+        <image name="home_bottom_right.png" width="34" height="4"/>
+    </resources>
+</document>

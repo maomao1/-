@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CRFRechargeSuccessViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create_account_success.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lsl-Jf-gcu">
+                    <rect key="frame" x="161" y="45" width="54" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="54" id="3Bh-um-2BC"/>
+                        <constraint firstAttribute="height" constant="54" id="DRg-z6-jku"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="充值受理成功" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPj-5p-SOh">
+                    <rect key="frame" x="0.0" y="114" width="375" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoi-d2-5OV">
+                    <rect key="frame" x="15" y="204" width="165" height="42"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="dcz-Ri-GRH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="继续充值">
+                        <color key="titleColor" red="0.98431372549019602" green="0.30196078431372547" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" title="继续充值"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorWithUIColor">
+                            <color key="value" red="0.98431372549019602" green="0.30196078431372547" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="rechargeContinue:" destination="-1" eventType="touchUpInside" id="3Ro-KH-jym"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqA-NH-qG3">
+                    <rect key="frame" x="195" y="204" width="165" height="42"/>
+                    <color key="backgroundColor" red="0.88235294117647056" green="0.27058823529411763" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="去投资"/>
+                    <state key="highlighted" title="去投资"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="goHome:" destination="-1" eventType="touchUpInside" id="beE-Ub-fa8"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afV-8z-kf1">
+                    <rect key="frame" x="0.0" y="146" width="375" height="13"/>
+                    <attributedString key="attributedText">
+                        <fragment content="预计30分钟内到账（以实际到账时间为准）！">
+                            <attributes>
+                                <color key="NSColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xoi-d2-5OV" firstAttribute="height" secondItem="PqA-NH-qG3" secondAttribute="height" id="2bP-AU-EzD"/>
+                <constraint firstItem="PqA-NH-qG3" firstAttribute="top" secondItem="xoi-d2-5OV" secondAttribute="top" id="5Fd-a7-38z"/>
+                <constraint firstItem="xoi-d2-5OV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="H5R-HF-2cN"/>
+                <constraint firstItem="afV-8z-kf1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="K5r-H7-ZYR"/>
+                <constraint firstItem="uPj-5p-SOh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Trr-yQ-X1R"/>
+                <constraint firstItem="afV-8z-kf1" firstAttribute="top" secondItem="uPj-5p-SOh" secondAttribute="bottom" constant="10" id="Wse-cy-aw0"/>
+                <constraint firstItem="xoi-d2-5OV" firstAttribute="top" secondItem="afV-8z-kf1" secondAttribute="bottom" constant="45" id="aEA-A6-rW0"/>
+                <constraint firstAttribute="trailing" secondItem="PqA-NH-qG3" secondAttribute="trailing" constant="15" id="ahv-O4-Udp"/>
+                <constraint firstItem="xoi-d2-5OV" firstAttribute="width" secondItem="PqA-NH-qG3" secondAttribute="width" id="gEq-xi-82g"/>
+                <constraint firstItem="PqA-NH-qG3" firstAttribute="leading" secondItem="xoi-d2-5OV" secondAttribute="trailing" constant="15" id="hiw-2j-8hc"/>
+                <constraint firstItem="Lsl-Jf-gcu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="45" id="j9z-RO-sjg"/>
+                <constraint firstAttribute="trailing" secondItem="afV-8z-kf1" secondAttribute="trailing" id="kf4-rC-feB"/>
+                <constraint firstAttribute="trailing" secondItem="uPj-5p-SOh" secondAttribute="trailing" id="pFV-AD-6Pt"/>
+                <constraint firstItem="uPj-5p-SOh" firstAttribute="top" secondItem="Lsl-Jf-gcu" secondAttribute="bottom" constant="15" id="tdq-fP-wb9"/>
+                <constraint firstItem="Lsl-Jf-gcu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xSR-6y-B8D"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="create_account_success.png" width="54" height="54"/>
+    </resources>
+</document>

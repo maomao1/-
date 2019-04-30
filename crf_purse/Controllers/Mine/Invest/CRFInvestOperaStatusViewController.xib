@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CRFInvestOperaStatusViewController">
+            <connections>
+                <outlet property="promptLabel" destination="cLR-EV-dJ1" id="88e-M3-PdW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="invest_success_status.png" translatesAutoresizingMaskIntoConstraints="NO" id="FiA-as-jYn">
+                    <rect key="frame" x="160" y="45" width="54" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="54" id="3VR-Ox-mUC"/>
+                        <constraint firstAttribute="height" constant="54" id="qJm-IM-kaH"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSO-wF-Vpd">
+                    <rect key="frame" x="105" y="177" width="165" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="165" id="E3M-Cv-57e"/>
+                        <constraint firstAttribute="height" constant="42" id="Miq-iK-AFq"/>
+                    </constraints>
+                    <state key="normal" title="查看详情"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="highlightedImageColor">
+                            <color key="value" red="0.88235294117647056" green="0.27058823529411763" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="normalImageColor">
+                            <color key="value" red="0.98431372549019602" green="0.30196078431372547" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="lookupDetail:" destination="-1" eventType="touchUpInside" id="Njr-pF-ZTU"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLR-EV-dJ1">
+                    <rect key="frame" x="0.0" y="114" width="375" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="CD3-zs-fYd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cLR-EV-dJ1" secondAttribute="trailing" id="0Wp-bY-tqA"/>
+                <constraint firstItem="dSO-wF-Vpd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="36A-b5-LmQ"/>
+                <constraint firstItem="FiA-as-jYn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="45" id="3J8-9F-4bi"/>
+                <constraint firstItem="cLR-EV-dJ1" firstAttribute="top" secondItem="FiA-as-jYn" secondAttribute="bottom" constant="15" id="4C0-hd-2of"/>
+                <constraint firstItem="cLR-EV-dJ1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="a3L-AP-eHl"/>
+                <constraint firstItem="dSO-wF-Vpd" firstAttribute="top" secondItem="cLR-EV-dJ1" secondAttribute="bottom" constant="45" id="oRd-wS-3gb"/>
+                <constraint firstItem="FiA-as-jYn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="z6c-5a-aPq"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="invest_success_status.png" width="54" height="54"/>
+    </resources>
+</document>

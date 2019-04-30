@@ -1,0 +1,6 @@
+framework module Pods_crf_purse {
+  umbrella header "Pods-crf_purse-umbrella.h"
+
+  export *
+  module * { export * }
+}

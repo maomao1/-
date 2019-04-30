@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CRFEvaluateAlertView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yiZ-Ft-pub">
+                    <rect key="frame" x="50" y="196" width="275" height="275"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="evaluate_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="vlW-8v-Ajg">
+                            <rect key="frame" x="0.0" y="0.0" width="275" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="Zls-b8-U0s"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="尊敬的客户：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bZ-HN-nTl">
+                            <rect key="frame" x="20" y="115" width="235" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="16" id="iTU-gx-N0T"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bv-y3-90X">
+                            <rect key="frame" x="20" y="215" width="235" height="40"/>
+                            <color key="backgroundColor" red="0.98039215686274506" green="0.31372549019607843" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="o8P-If-0Vz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="去测评">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="evaluate:" destination="iN0-l3-epB" eventType="touchUpInside" id="Dqn-kK-O8P"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="根据合规要求，您需要完成《投资风险承受能力测评》，才能进行其他操作，谢谢配合~" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwq-vk-KIZ">
+                            <rect key="frame" x="20" y="141" width="235" height="50.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="9bv-y3-90X" firstAttribute="leading" secondItem="yiZ-Ft-pub" secondAttribute="leading" constant="20" id="10f-5q-8Tb"/>
+                        <constraint firstAttribute="height" constant="275" id="1fW-dW-M2N"/>
+                        <constraint firstItem="kwq-vk-KIZ" firstAttribute="leading" secondItem="yiZ-Ft-pub" secondAttribute="leading" constant="20" id="2fa-g3-fAe"/>
+                        <constraint firstItem="vlW-8v-Ajg" firstAttribute="leading" secondItem="yiZ-Ft-pub" secondAttribute="leading" id="F1h-57-JCs"/>
+                        <constraint firstAttribute="trailing" secondItem="5bZ-HN-nTl" secondAttribute="trailing" constant="20" id="a1s-du-8ky"/>
+                        <constraint firstAttribute="width" constant="275" id="cvA-HA-MFe"/>
+                        <constraint firstAttribute="bottom" secondItem="9bv-y3-90X" secondAttribute="bottom" constant="20" id="g7c-9K-Tk4"/>
+                        <constraint firstAttribute="trailing" secondItem="kwq-vk-KIZ" secondAttribute="trailing" constant="20" id="gSx-wY-DQW"/>
+                        <constraint firstItem="kwq-vk-KIZ" firstAttribute="top" secondItem="5bZ-HN-nTl" secondAttribute="bottom" constant="10" id="gjg-yb-epe"/>
+                        <constraint firstAttribute="trailing" secondItem="9bv-y3-90X" secondAttribute="trailing" constant="20" id="mVm-o8-ZAR"/>
+                        <constraint firstItem="5bZ-HN-nTl" firstAttribute="top" secondItem="vlW-8v-Ajg" secondAttribute="bottom" constant="15" id="nmN-Gd-YDe"/>
+                        <constraint firstItem="vlW-8v-Ajg" firstAttribute="top" secondItem="yiZ-Ft-pub" secondAttribute="top" id="pI1-FL-uy1"/>
+                        <constraint firstAttribute="trailing" secondItem="vlW-8v-Ajg" secondAttribute="trailing" id="qO0-OA-zLn"/>
+                        <constraint firstItem="5bZ-HN-nTl" firstAttribute="leading" secondItem="yiZ-Ft-pub" secondAttribute="leading" constant="20" id="qf2-sV-dWb"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yiZ-Ft-pub" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="2DQ-mh-wc7"/>
+                <constraint firstItem="yiZ-Ft-pub" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="8fa-6J-nQd"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="124.58770614692655"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="evaluate_bg.png" width="275" height="100"/>
+    </resources>
+</document>

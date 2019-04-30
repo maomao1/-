@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CRFBorrowerSupplementaryInfoView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdv-Y0-HFi">
+                    <rect key="frame" x="40" y="140" width="295" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="eKQ-y8-8Gr"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="除《借款协议》已披露的借款人信息外，借款人在本借款项下的其他信息">
+                            <attributes>
+                                <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="18" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oM0-5J-0LE">
+                    <rect key="frame" x="30" y="214" width="315" height="1"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.050000000000000003" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="fEk-w2-col"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="当您最后一次申请债权转让时，平台会把本金和截止至上一个结算周期的收益进行结算，剩余收益将在下一个结算周期后结算给您。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bi3-Cf-PED">
+                    <rect key="frame" x="30" y="255" width="315" height="110"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rdv-Y0-HFi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="4oZ-gn-wTo"/>
+                <constraint firstItem="oM0-5J-0LE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="5Kr-uk-iQy"/>
+                <constraint firstItem="rdv-Y0-HFi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="140" id="7h0-Xg-XpY"/>
+                <constraint firstItem="bi3-Cf-PED" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="A87-Ut-xaA"/>
+                <constraint firstItem="bi3-Cf-PED" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="Eag-DM-zIo"/>
+                <constraint firstItem="bi3-Cf-PED" firstAttribute="top" secondItem="oM0-5J-0LE" secondAttribute="bottom" constant="40" id="FRX-eH-cLw"/>
+                <constraint firstAttribute="trailing" secondItem="rdv-Y0-HFi" secondAttribute="trailing" constant="40" id="LU1-Lu-xQa"/>
+                <constraint firstAttribute="trailing" secondItem="oM0-5J-0LE" secondAttribute="trailing" constant="30" id="Q8m-96-9kj"/>
+                <constraint firstItem="oM0-5J-0LE" firstAttribute="top" secondItem="rdv-Y0-HFi" secondAttribute="bottom" constant="20" id="UMu-5b-Gju"/>
+                <constraint firstAttribute="trailing" secondItem="bi3-Cf-PED" secondAttribute="trailing" constant="30" id="ZFs-iG-R2p"/>
+                <constraint firstItem="oM0-5J-0LE" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wah-5t-9p4"/>
+            </constraints>
+            <connections>
+                <outlet property="contentLabel" destination="bi3-Cf-PED" id="YFI-MG-rIK"/>
+                <outlet property="titleLabel" destination="rdv-Y0-HFi" id="y6t-Wa-b1J"/>
+            </connections>
+            <point key="canvasLocation" x="34.399999999999999" y="52.623688155922046"/>
+        </view>
+    </objects>
+</document>

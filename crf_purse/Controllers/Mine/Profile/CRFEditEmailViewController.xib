@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CRFEditEmailViewController">
+            <connections>
+                <outlet property="commitButton" destination="NnW-qG-haa" id="0jx-4u-HPt"/>
+                <outlet property="textField" destination="YoV-bL-mr2" id="3lx-wW-ARM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qqC-Gi-wEr">
+                    <rect key="frame" x="0.0" y="8" width="375" height="52"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请填写您的正确邮箱" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="YoV-bL-mr2">
+                            <rect key="frame" x="15" y="0.0" width="360" height="52"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="YoV-bL-mr2" firstAttribute="top" secondItem="qqC-Gi-wEr" secondAttribute="top" id="3bL-H2-tpL"/>
+                        <constraint firstAttribute="height" constant="52" id="C6k-pB-UqI"/>
+                        <constraint firstItem="YoV-bL-mr2" firstAttribute="leading" secondItem="qqC-Gi-wEr" secondAttribute="leading" constant="15" id="dG1-eZ-Ggn"/>
+                        <constraint firstAttribute="bottom" secondItem="YoV-bL-mr2" secondAttribute="bottom" id="lHE-bi-QbL"/>
+                        <constraint firstAttribute="trailing" secondItem="YoV-bL-mr2" secondAttribute="trailing" id="sZp-c2-tJc"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NnW-qG-haa">
+                    <rect key="frame" x="15" y="80" width="345" height="42"/>
+                    <color key="backgroundColor" red="0.98431372549019602" green="0.30196078431372547" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="SOW-fK-iFX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="发送验证邮件"/>
+                    <state key="highlighted" title="发送验证邮件"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="normalImageColor">
+                            <color key="value" red="0.98431372549019602" green="0.30196078431372547" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="highlightedImageColor">
+                            <color key="value" red="0.88235294117647056" green="0.27058823529411763" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="commit:" destination="-1" eventType="touchUpInside" id="j4f-qk-7h5"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="NnW-qG-haa" firstAttribute="top" secondItem="qqC-Gi-wEr" secondAttribute="bottom" constant="20" id="0qc-CX-oL0"/>
+                <constraint firstItem="qqC-Gi-wEr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4OS-q6-d7x"/>
+                <constraint firstAttribute="trailing" secondItem="qqC-Gi-wEr" secondAttribute="trailing" id="A1h-vf-6gE"/>
+                <constraint firstItem="NnW-qG-haa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="DCC-Ad-kzF"/>
+                <constraint firstItem="qqC-Gi-wEr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="eoA-PI-dzF"/>
+                <constraint firstAttribute="trailing" secondItem="NnW-qG-haa" secondAttribute="trailing" constant="15" id="vSv-I9-XSf"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

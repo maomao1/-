@@ -1,0 +1,6 @@
+framework module Pods_______PRE {
+  umbrella header "Pods-信而富钱包_PRE-umbrella.h"
+
+  export *
+  module * { export * }
+}

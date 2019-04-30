@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="investCell" id="gTV-IL-0wX" customClass="CRFInvestCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="388"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="434" height="388"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jvx-4i-PJJ">
+                        <rect key="frame" x="0.0" y="0.0" width="434" height="58"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1g-Tq-tgc">
+                                <rect key="frame" x="84.5" y="15" width="112" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="ks3-88-MP6"/>
+                                    <constraint firstAttribute="width" constant="112" id="uGT-qV-px8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="按出借时间排序">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="按出借时间排序">
+                                    <color key="titleColor" red="0.98431372549019602" green="0.30196078431372547" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="14"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonClick:" destination="gTV-IL-0wX" eventType="touchUpInside" id="dZb-3R-g5I"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qK4-vL-nJ8">
+                                <rect key="frame" x="216.5" y="15" width="1" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="Bwu-0g-LAC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="if0-Nz-75H">
+                                <rect key="frame" x="237.5" y="15" width="112" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="按到期时间排序">
+                                    <color key="titleColor" red="0.98431372549019602" green="0.30196078431372547" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="14"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonClick:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Kc0-zJ-FLq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qK4-vL-nJ8" firstAttribute="top" secondItem="jvx-4i-PJJ" secondAttribute="top" constant="15" id="6ks-9q-qMj"/>
+                            <constraint firstItem="qK4-vL-nJ8" firstAttribute="leading" secondItem="X1g-Tq-tgc" secondAttribute="trailing" constant="20" id="G6M-hr-dNV"/>
+                            <constraint firstItem="X1g-Tq-tgc" firstAttribute="centerY" secondItem="jvx-4i-PJJ" secondAttribute="centerY" id="Kzk-Y0-iy7"/>
+                            <constraint firstItem="qK4-vL-nJ8" firstAttribute="centerX" secondItem="jvx-4i-PJJ" secondAttribute="centerX" id="LAp-p1-R9L"/>
+                            <constraint firstItem="if0-Nz-75H" firstAttribute="width" secondItem="X1g-Tq-tgc" secondAttribute="width" id="Lpt-nm-duu"/>
+                            <constraint firstItem="if0-Nz-75H" firstAttribute="leading" secondItem="qK4-vL-nJ8" secondAttribute="trailing" constant="20" id="Vkd-qn-lNK"/>
+                            <constraint firstItem="if0-Nz-75H" firstAttribute="centerY" secondItem="jvx-4i-PJJ" secondAttribute="centerY" id="bdP-mU-N04"/>
+                            <constraint firstItem="if0-Nz-75H" firstAttribute="height" secondItem="X1g-Tq-tgc" secondAttribute="height" id="bn0-SM-aef"/>
+                            <constraint firstAttribute="height" constant="58" id="fHa-d3-oaK"/>
+                            <constraint firstAttribute="bottom" secondItem="qK4-vL-nJ8" secondAttribute="bottom" constant="8" id="nrG-8j-EqT"/>
+                        </constraints>
+                    </view>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="AL8-7M-p9q">
+                        <rect key="frame" x="89" y="161" width="240" height="128"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </tableView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="jvx-4i-PJJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5Fm-hf-9YX"/>
+                <constraint firstAttribute="trailing" secondItem="jvx-4i-PJJ" secondAttribute="trailing" id="Q7Y-6C-07q"/>
+                <constraint firstItem="jvx-4i-PJJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="kN0-uh-isP"/>
+            </constraints>
+            <size key="customSize" width="434" height="388"/>
+            <connections>
+                <outlet property="tableView" destination="AL8-7M-p9q" id="x9T-wI-V8O"/>
+                <outlet property="timeButton" destination="if0-Nz-75H" id="RvE-88-Bw3"/>
+                <outlet property="topView" destination="jvx-4i-PJJ" id="nCL-GM-epI"/>
+                <outlet property="transformButton" destination="X1g-Tq-tgc" id="8nv-JG-fqf"/>
+            </connections>
+            <point key="canvasLocation" x="31" y="-38"/>
+        </collectionViewCell>
+    </objects>
+</document>

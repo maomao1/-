@@ -1,0 +1,1605 @@
+[
+    {
+        "card_bin": "138335",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "1"
+    },
+    {
+        "card_bin": "303390",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "1"
+    },
+    {
+        "card_bin": "405512",
+        "bank_code": "BOCM",
+        "bank_name": "交通银行",
+        "phone":"95559",
+        "cc": "2"
+    },
+    {
+        "card_bin": "410062",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "117"
+    },
+    {
+        "card_bin": "415599",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "19"
+    },
+    {
+        "card_bin": "421349",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "334"
+    },
+    {
+        "card_bin": "421393",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "9"
+    },
+    {
+        "card_bin": "421865",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "31"
+    },
+    {
+        "card_bin": "427570",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "2"
+    },
+    {
+        "card_bin": "434061",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "623"
+    },
+    {
+        "card_bin": "434062",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "350"
+    },
+    {
+        "card_bin": "436742",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "5519"
+    },
+    {
+        "card_bin": "442730",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "6"
+    },
+    {
+        "card_bin": "456351",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "1633"
+    },
+    {
+        "card_bin": "458060",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "2"
+    },
+    {
+        "card_bin": "468203",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "164"
+    },
+    {
+        "card_bin": "472067",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "18"
+    },
+    {
+        "card_bin": "472068",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "58"
+    },
+    {
+        "card_bin": "512425",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "70"
+    },
+    {
+        "card_bin": "524011",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "35"
+    },
+    {
+        "card_bin": "524094",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "130"
+    },
+    {
+        "card_bin": "526410",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "257"
+    },
+    {
+        "card_bin": "552245",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "145"
+    },
+    {
+        "card_bin": "601382",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "5344"
+    },
+    {
+        "card_bin": "601428",
+        "bank_code": "BOCM",
+        "bank_name": "交通银行",
+        "phone":"95559",
+        "cc": "4"
+    },
+    {
+        "card_bin": "602907",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "3"
+    },
+    {
+        "card_bin": "620058",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "23"
+    },
+    {
+        "card_bin": "620059",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "5"
+    },
+    {
+        "card_bin": "620060",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "11"
+    },
+    {
+        "card_bin": "620061",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "8"
+    },
+    {
+        "card_bin": "620518",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "3"
+    },
+    {
+        "card_bin": "621080",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "8"
+    },
+    {
+        "card_bin": "621081",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "23033"
+    },
+    {
+        "card_bin": "621082",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "1"
+    },
+    {
+        "card_bin": "621095",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "64"
+    },
+    {
+        "card_bin": "621096",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "2"
+    },
+    {
+        "card_bin": "621098",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "17779"
+    },
+    {
+        "card_bin": "621225",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "6305"
+    },
+    {
+        "card_bin": "621226",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "247557"
+    },
+    {
+        "card_bin": "621227",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "142"
+    },
+    {
+        "card_bin": "621281",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "1394"
+    },
+    {
+        "card_bin": "621282",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "371"
+    },
+    {
+        "card_bin": "621283",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "502"
+    },
+    {
+        "card_bin": "621284",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "1574"
+    },
+    {
+        "card_bin": "621285",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "307"
+    },
+    {
+        "card_bin": "621286",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "27"
+    },
+    {
+        "card_bin": "621288",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "549"
+    },
+    {
+        "card_bin": "621330",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "81"
+    },
+    {
+        "card_bin": "621332",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "32"
+    },
+    {
+        "card_bin": "621336",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "357"
+    },
+    {
+        "card_bin": "621462",
+        "bank_code": "CGB",
+        "bank_name": "广发银行",
+        "phone":"4008308003",
+        "cc": "3442"
+    },
+    {
+        "card_bin": "621466",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "695"
+    },
+    {
+        "card_bin": "621467",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "967"
+    },
+    {
+        "card_bin": "621476",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "10"
+    },
+    {
+        "card_bin": "621483",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "50224"
+    },
+    {
+        "card_bin": "621485",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "11030"
+    },
+    {
+        "card_bin": "621486",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "278"
+    },
+    {
+        "card_bin": "621488",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "14"
+    },
+    {
+        "card_bin": "621489",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "16"
+    },
+    {
+        "card_bin": "621491",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "193"
+    },
+    {
+        "card_bin": "621492",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "4766"
+    },
+    {
+        "card_bin": "621499",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "800"
+    },
+    {
+        "card_bin": "621558",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "40480"
+    },
+    {
+        "card_bin": "621559",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "21494"
+    },
+    {
+        "card_bin": "621568",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "2291"
+    },
+    {
+        "card_bin": "621569",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "3194"
+    },
+    {
+        "card_bin": "621598",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "2761"
+    },
+    {
+        "card_bin": "621599",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "3267"
+    },
+    {
+        "card_bin": "621618",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "2"
+    },
+    {
+        "card_bin": "621619",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "1"
+    },
+    {
+        "card_bin": "621620",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "5"
+    },
+    {
+        "card_bin": "621621",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "8"
+    },
+    {
+        "card_bin": "621626",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "683"
+    },
+    {
+        "card_bin": "621660",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "9882"
+    },
+    {
+        "card_bin": "621661",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "13319"
+    },
+    {
+        "card_bin": "621663",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "727"
+    },
+    {
+        "card_bin": "621665",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "7"
+    },
+    {
+        "card_bin": "621666",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "469"
+    },
+    {
+        "card_bin": "621668",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "50"
+    },
+    {
+        "card_bin": "621669",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "2223"
+    },
+    {
+        "card_bin": "621670",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "70"
+    },
+    {
+        "card_bin": "621671",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "98"
+    },
+    {
+        "card_bin": "621672",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "17"
+    },
+    {
+        "card_bin": "621673",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "70"
+    },
+    {
+        "card_bin": "621674",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "12"
+    },
+    {
+        "card_bin": "621691",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "8982"
+    },
+    {
+        "card_bin": "621700",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "392637"
+    },
+    {
+        "card_bin": "621721",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "898"
+    },
+    {
+        "card_bin": "621722",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "1305"
+    },
+    {
+        "card_bin": "621723",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "23801"
+    },
+    {
+        "card_bin": "621725",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "3796"
+    },
+    {
+        "card_bin": "621756",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "4493"
+    },
+    {
+        "card_bin": "621758",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "8203"
+    },
+    {
+        "card_bin": "621759",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "3"
+    },
+    {
+        "card_bin": "621768",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "2270"
+    },
+    {
+        "card_bin": "621769",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "1"
+    },
+    {
+        "card_bin": "621770",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "40"
+    },
+    {
+        "card_bin": "621771",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "11134"
+    },
+    {
+        "card_bin": "621773",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "5579"
+    },
+    {
+        "card_bin": "621785",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "58008"
+    },
+    {
+        "card_bin": "621786",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "4408"
+    },
+    {
+        "card_bin": "621787",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "484"
+    },
+    {
+        "card_bin": "621788",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "1348"
+    },
+    {
+        "card_bin": "621790",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "22392"
+    },
+    {
+        "card_bin": "621797",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "2441"
+    },
+    {
+        "card_bin": "621798",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "356"
+    },
+    {
+        "card_bin": "621799",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "131113"
+    },
+    {
+        "card_bin": "622150",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "5956"
+    },
+    {
+        "card_bin": "622151",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "134"
+    },
+    {
+        "card_bin": "622180",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "483"
+    },
+    {
+        "card_bin": "622181",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "18"
+    },
+    {
+        "card_bin": "622187",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "48"
+    },
+    {
+        "card_bin": "622188",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "14239"
+    },
+    {
+        "card_bin": "622200",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "1918"
+    },
+    {
+        "card_bin": "622202",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "72138"
+    },
+    {
+        "card_bin": "622203",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "3367"
+    },
+    {
+        "card_bin": "622208",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "29137"
+    },
+    {
+        "card_bin": "622258",
+        "bank_code": "BOCM",
+        "bank_name": "交通银行",
+        "phone":"95559",
+        "cc": "4"
+    },
+    {
+        "card_bin": "622260",
+        "bank_code": "BOCM",
+        "bank_name": "交通银行",
+        "phone":"95559",
+        "cc": "1691"
+    },
+    {
+        "card_bin": "622262",
+        "bank_code": "BOCM",
+        "bank_name": "交通银行",
+        "phone":"95559",
+        "cc": "9477"
+    },
+    {
+        "card_bin": "622280",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "7949"
+    },
+    {
+        "card_bin": "622298",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "471"
+    },
+    {
+        "card_bin": "622536",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "1"
+    },
+    {
+        "card_bin": "622538",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "238"
+    },
+    {
+        "card_bin": "622568",
+        "bank_code": "CGB",
+        "bank_name": "广发银行",
+        "phone":"4008308003",
+        "cc": "1076"
+    },
+    {
+        "card_bin": "622580",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "27"
+    },
+    {
+        "card_bin": "622588",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "11210"
+    },
+    {
+        "card_bin": "622600",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "1"
+    },
+    {
+        "card_bin": "622609",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "3257"
+    },
+    {
+        "card_bin": "622616",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "32"
+    },
+    {
+        "card_bin": "622617",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "249"
+    },
+    {
+        "card_bin": "622618",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "61"
+    },
+    {
+        "card_bin": "622619",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "4868"
+    },
+    {
+        "card_bin": "622620",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "2002"
+    },
+    {
+        "card_bin": "622622",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "10280"
+    },
+    {
+        "card_bin": "622630",
+        "bank_code": "HXB",
+        "bank_name": "华夏银行",
+        "phone":"95577",
+        "cc": "243"
+    },
+    {
+        "card_bin": "622631",
+        "bank_code": "HXB",
+        "bank_name": "华夏银行",
+        "phone":"95577",
+        "cc": "33"
+    },
+    {
+        "card_bin": "622632",
+        "bank_code": "HXB",
+        "bank_name": "华夏银行",
+        "phone":"95577",
+        "cc": "33"
+    },
+    {
+        "card_bin": "622633",
+        "bank_code": "HXB",
+        "bank_name": "华夏银行",
+        "phone":"95577",
+        "cc": "51"
+    },
+    {
+        "card_bin": "622661",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "19"
+    },
+    {
+        "card_bin": "622662",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "5515"
+    },
+    {
+        "card_bin": "622663",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "2248"
+    },
+    {
+        "card_bin": "622664",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "42"
+    },
+    {
+        "card_bin": "622665",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "79"
+    },
+    {
+        "card_bin": "622666",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "1854"
+    },
+    {
+        "card_bin": "622667",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "21"
+    },
+    {
+        "card_bin": "622668",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "457"
+    },
+    {
+        "card_bin": "622669",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "86"
+    },
+    {
+        "card_bin": "622673",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "38"
+    },
+    {
+        "card_bin": "622690",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "1454"
+    },
+    {
+        "card_bin": "622691",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "62"
+    },
+    {
+        "card_bin": "622696",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "464"
+    },
+    {
+        "card_bin": "622698",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "195"
+    },
+    {
+        "card_bin": "622700",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "59023"
+    },
+    {
+        "card_bin": "622707",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "1"
+    },
+    {
+        "card_bin": "622821",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "1231"
+    },
+    {
+        "card_bin": "622822",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "37"
+    },
+    {
+        "card_bin": "622823",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "711"
+    },
+    {
+        "card_bin": "622824",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "2"
+    },
+    {
+        "card_bin": "622825",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "546"
+    },
+    {
+        "card_bin": "622826",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "4"
+    },
+    {
+        "card_bin": "622827",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "12077"
+    },
+    {
+        "card_bin": "622828",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "89"
+    },
+    {
+        "card_bin": "622830",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "1"
+    },
+    {
+        "card_bin": "622841",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "10375"
+    },
+    {
+        "card_bin": "622843",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "4505"
+    },
+    {
+        "card_bin": "622845",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "4644"
+    },
+    {
+        "card_bin": "622846",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "639"
+    },
+    {
+        "card_bin": "622848",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "474239"
+    },
+    {
+        "card_bin": "622849",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "174"
+    },
+    {
+        "card_bin": "622908",
+        "bank_code": "CIB",
+        "bank_name": "兴业银行",
+        "phone":"95561",
+        "cc": "13729"
+    },
+    {
+        "card_bin": "622909",
+        "bank_code": "CIB",
+        "bank_name": "兴业银行",
+        "phone":"95561",
+        "cc": "1697"
+    },
+    {
+        "card_bin": "622966",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "95"
+    },
+    {
+        "card_bin": "622986",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "30"
+    },
+    {
+        "card_bin": "622988",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "49"
+    },
+    {
+        "card_bin": "622989",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "5"
+    },
+    {
+        "card_bin": "622998",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "4"
+    },
+    {
+        "card_bin": "623020",
+        "bank_code": "HXB",
+        "bank_name": "华夏银行",
+        "phone":"95577",
+        "cc": "3625"
+    },
+    {
+        "card_bin": "623021",
+        "bank_code": "HXB",
+        "bank_name": "华夏银行",
+        "phone":"95577",
+        "cc": "232"
+    },
+    {
+        "card_bin": "623022",
+        "bank_code": "HXB",
+        "bank_name": "华夏银行",
+        "phone":"95577",
+        "cc": "24"
+    },
+    {
+        "card_bin": "623023",
+        "bank_code": "HXB",
+        "bank_name": "华夏银行",
+        "phone":"95577",
+        "cc": "1"
+    },
+    {
+        "card_bin": "623050",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "1"
+    },
+    {
+        "card_bin": "623052",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "4689"
+    },
+    {
+        "card_bin": "623058",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "8513"
+    },
+    {
+        "card_bin": "623062",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "17"
+    },
+    {
+        "card_bin": "623094",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "5551"
+    },
+    {
+        "card_bin": "623126",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "1"
+    },
+    {
+        "card_bin": "623136",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "1"
+    },
+    {
+        "card_bin": "623156",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "327"
+    },
+    {
+        "card_bin": "623208",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "2766"
+    },
+    {
+        "card_bin": "623211",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "3928"
+    },
+    {
+        "card_bin": "623218",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "199"
+    },
+    {
+        "card_bin": "623251",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "2"
+    },
+    {
+        "card_bin": "623271",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "1"
+    },
+    {
+        "card_bin": "623569",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "87"
+    },
+    {
+        "card_bin": "623571",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "35"
+    },
+    {
+        "card_bin": "623572",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "174"
+    },
+    {
+        "card_bin": "623573",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "1194"
+    },
+    {
+        "card_bin": "623575",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "1732"
+    },
+    {
+        "card_bin": "623586",
+        "bank_code": "BOC",
+        "bank_name": "中国银行",
+        "phone":"95566",
+        "cc": "11"
+    },
+    {
+        "card_bin": "623668",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "99760"
+    },
+    {
+        "card_bin": "623669",
+        "bank_code": "CCB",
+        "bank_name": "建设银行",
+        "phone":"95533",
+        "cc": "40"
+    },
+    {
+        "card_bin": "623683",
+        "bank_code": "CMBC",
+        "bank_name": "民生银行",
+        "phone":"95568",
+        "cc": "1"
+    },
+    {
+        "card_bin": "623686",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "1"
+    },
+    {
+        "card_bin": "623698",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "13"
+    },
+    {
+        "card_bin": "623699",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "4"
+    },
+    {
+        "card_bin": "627066",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "6"
+    },
+    {
+        "card_bin": "627067",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "11"
+    },
+    {
+        "card_bin": "627068",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "1"
+    },
+    {
+        "card_bin": "900301",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "2"
+    },
+    {
+        "card_bin": "900302",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "2"
+    },
+    {
+        "card_bin": "900304",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "4"
+    },
+    {
+        "card_bin": "900305",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "2"
+    },
+    {
+        "card_bin": "900309",
+        "bank_code": "CEB",
+        "bank_name": "光大银行",
+        "phone":"95595",
+        "cc": "4"
+    },
+    {
+        "card_bin": "911121",
+        "bank_code": "CGB",
+        "bank_name": "广发银行",
+        "phone":"4008308003",
+        "cc": "1"
+    },
+    {
+        "card_bin": "955100",
+        "bank_code": "PSBC",
+        "bank_name": "邮政储蓄",
+        "phone":"95580",
+        "cc": "34"
+    },
+    {
+        "card_bin": "955550",
+        "bank_code": "CMB",
+        "bank_name": "招商银行",
+        "phone":"95555",
+        "cc": "55"
+    },
+    {
+        "card_bin": "955880",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "1173"
+    },
+    {
+        "card_bin": "955881",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "70"
+    },
+    {
+        "card_bin": "955882",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "601"
+    },
+    {
+        "card_bin": "955888",
+        "bank_code": "ICBC",
+        "bank_name": "工商银行",
+        "phone":"95588",
+        "cc": "103"
+    },
+    {
+        "card_bin": "955990",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "1"
+    },
+    {
+        "card_bin": "955991",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "1"
+    },
+    {
+        "card_bin": "955995",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "1"
+    },
+    {
+        "card_bin": "955998",
+        "bank_code": "ABC",
+        "bank_name": "农业银行",
+        "phone":"95599",
+        "cc": "476"
+    },
+    {
+        "card_bin": "966666",
+        "bank_code": "CIB",
+        "bank_name": "兴业银行",
+        "phone":"95561",
+        "cc": "20"
+    },
+    {
+        "card_bin": "968808",
+        "bank_code": "CITIC",
+        "bank_name": "中信银行",
+        "phone":"95558",
+        "cc": "1"
+    },
+    {
+        "card_bin": "998800",
+        "bank_code": "PAYH",
+        "bank_name": "平安银行",
+        "phone":"95511",
+        "cc": "2"
+    },
+    {
+        "card_bin": "621792",
+        "bank_code": "SPDB",
+        "bank_name": "浦发银行",
+        "phone":"95528",
+        "cc": ""
+    }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>401</key>
+	<string>D_1登录超时</string>
+	<key>403</key>
+	<string>D_3非法请求</string>
+	<key>404</key>
+	<string>D_4服务器繁忙，请稍后再试</string>
+	<key>405</key>
+	<string>D_5服务器繁忙，请稍后再试</string>
+	<key>406</key>
+	<string>D_6请更新应用至最新版本</string>
+	<key>413</key>
+	<string>D_13服务暂时无法使用，请联系客服</string>
+	<key>500</key>
+	<string>E_0服务器繁忙，请稍后再试</string>
+	<key>501</key>
+	<string>E_1服务器繁忙，请稍后再试</string>
+	<key>502</key>
+	<string>E_2服务器繁忙，请稍后再试</string>
+	<key>503</key>
+	<string>E_3服务器繁忙，请稍后再试</string>
+	<key>504</key>
+	<string>E_4:服务器繁忙，请稍后再试</string>
+</dict>
+</plist>

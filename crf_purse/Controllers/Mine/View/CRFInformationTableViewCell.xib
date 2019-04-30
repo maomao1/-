@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="header" rowHeight="61" id="Dz2-iV-9Vy" customClass="CRFInformationTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="387" height="61"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dz2-iV-9Vy" id="Xu2-Vc-wFf">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="60.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ODs-DK-Oev">
+                        <rect key="frame" x="314" y="13" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="DHd-Qy-c7q"/>
+                            <constraint firstAttribute="height" constant="35" id="xbl-d8-nTL"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ODs-DK-Oev" firstAttribute="centerY" secondItem="Xu2-Vc-wFf" secondAttribute="centerY" id="dBI-ap-qmC"/>
+                    <constraint firstAttribute="trailing" secondItem="ODs-DK-Oev" secondAttribute="trailing" constant="5" id="lrX-ut-YHh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatarImageView" destination="ODs-DK-Oev" id="FJh-g9-O5d"/>
+            </connections>
+            <point key="canvasLocation" x="-0.5" y="-139.5"/>
+        </tableViewCell>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="systemCell" rowHeight="178" id="Qx2-yd-1xC" customClass="CRFInformationTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="419" height="178"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Qx2-yd-1xC" id="uWE-pX-bGI">
+                <rect key="frame" x="0.0" y="0.0" width="386" height="177.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4d-tx-Hg4">
+                        <rect key="frame" x="132" y="0.0" width="250" height="177.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="250" id="co5-zC-6YF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="P4d-tx-Hg4" secondAttribute="bottom" id="dwH-e6-0SL"/>
+                    <constraint firstItem="P4d-tx-Hg4" firstAttribute="top" secondItem="uWE-pX-bGI" secondAttribute="top" id="kcp-jE-1ag"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="P4d-tx-Hg4" secondAttribute="trailing" constant="37" id="pxM-8Z-CBc"/>
+            </constraints>
+            <connections>
+                <outlet property="contentlabel" destination="P4d-tx-Hg4" id="8lg-U2-WMP"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="78"/>
+        </tableViewCell>
+    </objects>
+</document>
